@@ -23,7 +23,7 @@
       "@/public/*": ["public/*"],
       "@/app/*":["src/app/*"],
       "@/layout/*":["src/components/layout/*"],
-
+      "@/components/*":["src/components/*"]
 
     }
   },
