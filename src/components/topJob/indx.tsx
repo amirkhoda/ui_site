@@ -5,12 +5,12 @@ import TopJobCard from "./TopJobCard";
 const TopJob = () => {
   return (
     <div className="flex flex-col justify-start items-start gap-2 mt-16">
-      <p>
-        <span className="text-primary">Latest and Top</span>
+      <p className="header-2">
+        <span className="text-primary header-2">Latest and Top</span>
         Jobs Openings
       </p>
       <div className="flex justify-between items-center w-full">
-        <p>
+        <p className="subtitle-1 text-secondary">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime quam
           sit accusamus, magnam ipsam?
           <br /> Voluptatum nisi voluptas provident perspiciatis numquam.
@@ -22,7 +22,7 @@ const TopJob = () => {
           View All Jobs
         </button>
       </div>
-      <div className="flex flex-wrap justify-center items-center">
+      <div className="flex flex-wrap justify-center items-center gap-4 mt-8">
         {job.map((item, index) => (
           <TopJobCard key={index} data={item} />
         ))}

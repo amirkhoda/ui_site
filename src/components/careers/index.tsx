@@ -5,13 +5,18 @@ import CareersCard from "./CareersCard";
 
 function Careers() {
   return (
-    <div className="flex flex-col justify-center items-center gap-2 mt-16">
-      <p>
-        <span className="text-primary">Countless Career Options</span> Are
-        Waiting
-      </p>
-      <p>For You To Explore</p>
-      <div className="flex flex-wrap justify-center items-center">
+    <div className="flex flex-col justify-center items-center gap-8 mt-16">
+      <div className="flex flex-col justify-center items-center">
+        {" "}
+        <p className="header-2 ">
+          <span className="text-primary header-2 ">
+            Countless Career Options
+          </span>{" "}
+          Are Waiting For You To Explore
+        </p>
+      </div>
+
+      <div className="flex flex-wrap justify-center items-center gap-8 mt-4">
         {data.map((item, index) => (
           <CareersCard key={index} data={item} />
         ))}

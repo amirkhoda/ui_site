@@ -10,10 +10,10 @@ interface careerCardProps {
 const CareersCard: React.FC<careerCardProps> = ({ data }) => {
   const { image, title, main } = data;
   return (
-    <div>
+    <div className="w-[250px] h-[250px] bg-white shadow-xl gap-4 flex flex-col justify-start items-start p-8 transition-transform duration-200 hover:scale-105 border rounded-lg hover:bg-primary text-black hover:text-white">
       <Image src={image} alt={title} width={50} height={50} />
-      <h2>{title}</h2>
-      <p>{main}</p>
+      <p className="title-4 ">{title}</p>
+      <p className="subtitle-2 text-secondary ">{main}</p>
     </div>
   );
 };
