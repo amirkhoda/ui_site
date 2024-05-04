@@ -36,148 +36,13 @@ button,input,textarea{
 }
 
 
-.header-1 {
-  font-family: "KalamehBold";
-  font-size: 2.41406rem;
-  font-weight: 800;
-  @media screen and (min-width: 768px) {
-    font-size: 7.61406rem;
-  }
-}
-
-.header-1-plus {
-  font-family: "KalamehBold";
-  font-size: clamp(1.9rem, 5vw, 7.1rem);
-  font-weight: 800;
-  /* @media screen and (min-width: 768px) {
-    font-size: 7.11406rem;
-  } */
-}
 
 .header-2 {
   font-family: "KalamehExtraBold";
   font-size: clamp(1.55rem, 5vw, 6.18713rem);
   font-weight: 800;
-  /* @media screen and (max-width: 1068px) {
-    font-size: 3.61406rem;
-  }
-  @media screen and (max-width: 768px) {
-    font-size: 2.11406rem;
-  } */
-}
 
-.header-3 {
-  font-family: "KalamehExtraBold";
-  font-size: clamp(1.36719rem, 4vw, 3.05rem);
-  line-height: 140%;
 }
-
-.header-3-plus {
-  font-family: "KalamehExtraBold";
-  font-size: clamp(1.36719rem, 4vw, 4.75rem);
-  line-height: 140%;
-  /* @media screen and (max-width: 768px) {
-    font-size: 1.36719rem;
-  } */
-}
-
-.header-4 {
-  font-family: "KalamehBold";
-  font-size: 3.05906rem;
-  line-height: 140%;
-  @media screen and (max-width: 1468px) {
-    font-size: 2.2rem;
-  }
-  @media screen and (max-width: 1068px) {
-    font-size: 2rem;
-  }
-  @media screen and (max-width: 768px) {
-    font-size: 1.80669rem;
-  }
-  @media screen and (max-width: 568px) {
-    font-size: 1.20669rem;
-  }
-}
-.header-4-plus {
-  font-family: "KalamehBold";
-  font-size: 4.35906rem;
-  line-height: 140%;
-  @media screen and (max-width: 1468px) {
-    font-size: 3.6rem;
-  }
-  @media screen and (max-width: 1068px) {
-    font-size: 3.8rem;
-  }
-  @media screen and (max-width: 768px) {
-    font-size: 2.4rem;
-  }
-}
-
-.header-5 {
-  font-family: "KalamehRegular";
-  font-size: 3.05663rem;
-  font-weight: 700;
-  line-height: 140%;
-  @media screen and (max-width: 768px) {
-    font-size: 2.0875rem;
-  }
-}
-.about-5 {
-  font-family: "KalamehBold";
-  font-size: 3.05663rem;
-  font-weight: 700;
-  line-height: 140%;
-  @media screen and (max-width: 668px) {
-    font-family: "KalamehBold";
-    font-size: 2.1875rem;
-  }
-}
-
-.header-6 {
-  font-family: "KalamehRegular";
-  font-size: clamp(0.95rem, 3vw, 3.05375rem);
-  font-weight: 500;
-  line-height: 150.5%;
-  color: #fff;
-}
-.header-7 {
-  font-family: "KalamehBold";
-  font-weight: 500;
-  font-size: 2.2rem;
-  line-height: 140.5%;
-  color: #fff;
-  @media screen and (max-width: 968px) {
-    font-size: 1.4rem;
-  }
-  @media screen and (max-width: 758px) {
-    font-size: 0.7rem;
-  }
-}
-
-.title {
-  font-family: "KalamehBold";
-  font-size: 1.61744rem;
-  line-height: 130.5%;
-  @media screen and (max-width: 968px) {
-    font-size: 1.53rem;
-  }
-  @media screen and (max-width: 758px) {
-    font-size: 0.97181rem;
-  }
-}
-.title-detail {
-  font-family: "KalamehBold";
-  font-size: 1.61744rem;
-  line-height: 130.5%;
-
-  @media screen and (max-width: 968px) {
-    font-size: 1.53rem;
-  }
-  @media screen and (max-width: 658px) {
-    font-size: 1.2rem;
-  }
-}
-
 .title-1 {
   font-family: "KalamehBold";
   font-size: 2.5125rem;
@@ -186,33 +51,6 @@ button,input,textarea{
     font-size: 1.125rem;
   }
 }
-
-.title-2 {
-  font-family: "KalamehBold";
-  font-size: 1.8622rem;
-  line-height: 150.5%;
-  @media screen and (max-width: 768px) {
-    font-size: 1.125rem;
-  }
-}
-
-.title-3 {
-  font-family: "KalamehRegular";
-  font-size: clamp(1rem, 1.4vw, 1.4125rem);
-  line-height: 110.5%;
-  font-weight: 400;
-  /* @media screen and (max-width: 608px) {
-    font-size: 1.237rem;
-  } */
-}
-
-.title-3-plus {
-  font-family: "KalamehRegular";
-  line-height: 110.5%;
-  font-weight: 500;
-  font-size: clamp(0.737rem, 2.8vw, 1.82563rem);
-}
-
 .title-4 {
   font-family: "KalamehRegular";
   font-size: clamp(0.5rem, 2vw, 1.5625rem);
@@ -259,26 +97,7 @@ button,input,textarea{
   }
 }
 
-.title-5 {
-  font-family: "KalamehRegular";
-  font-size: clamp(0.45rem, 1.5vw, 1.2625rem);
-  /* font-size: 1.5625rem; */
-  line-height: 140%;
-  /* @media screen and (max-width: 758px) {
-    font-size: 0.5rem;
-  } */
-}
-.title-6 {
-  font-family: "KalamehRegular";
-  font-size: clamp(0.5rem, 2vw, 1.5625rem);
-  line-height: 140%;
-  @media screen and (max-width: 968px) {
-    font-size: 1rem;
-  }
-  @media screen and (max-width: 568px) {
-    font-size: 0.38669rem;
-  }
-}
+
 .subtitle-1 {
   font-family: "KalamehRegular";
   font-size: clamp(0.75rem, 2.8vw, 1.36213rem);
@@ -304,100 +123,6 @@ button,input,textarea{
     font-size: 0.48rem;
   }
 }
-.change-2 {
-  font-family: "KalamehRegular";
-  font-size: 1.06663rem;
-  line-height: 140%;
-  @media screen and (max-width: 1068px) {
-    font-size: 1.38rem;
-  }
-  @media screen and (max-width: 768px) {
-    font-size: 1.3rem;
-  }
-
-  @media screen and (max-width: 658px) {
-    font-size: 0.6875rem;
-  }
-}
-
-.subtitle-3 {
-  font-family: "KalamehBold";
-  font-size: 1.8125rem;
-  line-height: 150.5%;
-  font-weight: 600;
-
-  @media screen and (max-width: 768px) {
-    font-family: "KalamehBold";
-    font-size: 1.9rem;
-  }
-  @media screen and (max-width: 668px) {
-    font-family: "KalamehBold";
-    font-size: 1.4rem;
-  }
-  @media screen and (max-width: 539px) {
-    font-family: "KalamehBold";
-    font-size: 1.2rem;
-  }
-
-  @media screen and (max-width: 390px) {
-    font-family: "KalamehBold";
-    font-size: 0.9rem;
-  }
-  @media screen and (max-width: 346px) {
-    font-family: "KalamehBold";
-    font-size: 0.8rem;
-  }
-}
-.title-7 {
-  font-family: "KalamehBold";
-  font-size: 1.8125rem;
-  line-height: 150.5%;
-  font-weight: 600;
-  @media screen and (max-width: 890px) {
-    font-family: "KalamehBold";
-    font-size: 1.5rem;
-  }
-  @media screen and (max-width: 768px) {
-    font-family: "KalamehBold";
-    font-size: 1.3rem;
-  }
-  @media screen and (max-width: 668px) {
-    font-family: "KalamehBold";
-    font-size: 1.4rem;
-  }
-  @media screen and (max-width: 539px) {
-    font-family: "KalamehBold";
-    font-size: 1.2rem;
-  }
-  @media screen and (max-width: 478px) {
-    font-family: "KalamehBold";
-    font-size: 0.9rem;
-  }
-  @media screen and (max-width: 390px) {
-    font-family: "KalamehBold";
-    font-size: 0.7rem;
-  }
-  @media screen and (max-width: 346px) {
-    font-family: "KalamehBold";
-    font-size: 0.6rem;
-  }
-}
-
-.max-width-wide {
-  /* @media screen and (min-width: 1921px) {
-    width: 1920px;
-    margin-inline: auto;
-  } */
-}
-
-.miniText {
-  font-family: "KalamehRegular";
-  font-size: 0.7rem;
-  line-height: 140%;
-  @media screen and (max-width: 758px) {
-    font-size: 0.63rem;
-  }
-}
 
 .btn {
   font-family: "KalamehBold";
@@ -407,31 +132,13 @@ button,input,textarea{
     font-size: 0.83rem;
   }
 }
-.btn-2 {
-  font-family: "KalamehRegular";
-  font-size: 1.059rem;
-  line-height: 140%;
 
-  @media screen and (max-width: 758px) {
-    font-size: 0.83rem;
-  }
-}
 
 .number {
   font-family: "KalamehBold";
   font-size: clamp(3.83rem, 7vw, 7.16819rem);
   line-height: 140%;
-}
-.number-2 {
-  font-family: "KalamehExtraBold";
-  font-size: 8rem;
-  line-height: 140%;
-  @media screen and (min-width: 768px) {
-    font-size: 15rem;
-  }
-}
-
-.word-spacing {
+}.word-spacing {
   word-spacing: 4px;
 }
 
