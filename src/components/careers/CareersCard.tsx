@@ -1,14 +1,13 @@
 "use client";
 
-import { DataItem } from "@/utils/hiredcard";
+import { careerData } from "@/utils/careersCard";
 import Image from "next/image";
 import React from "react";
 
-interface HireCardProps {
-  data: DataItem;
+interface careerCardProps {
+  data: careerData;
 }
-
-const HireCard: React.FC<HireCardProps> = ({ data }) => {
+const CareersCard: React.FC<careerCardProps> = ({ data }) => {
   const { image, title, main } = data;
   return (
     <div>
@@ -19,4 +18,4 @@ const HireCard: React.FC<HireCardProps> = ({ data }) => {
   );
 };
 
-export default HireCard;
+export default CareersCard;

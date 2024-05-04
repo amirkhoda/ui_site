@@ -1,6 +1,6 @@
 import job from "../../public/image/job.svg";
 import message from "../../public/image/message.svg";
-import paper from "../../public/image/paper.svg";
+import resume from "../../public/image/resume.svg";
 import person from "../../public/image/person.svg";
 
 export interface DataItem {
@@ -21,7 +21,7 @@ const data: DataItem[] = [
         main: "Find the perfect job that fits your skills."
     },
     {
-        image: paper,
+        image: resume,
         title: "Upload CV/Resume",
         main: "Upload your most recent CV or resume."
     },
