@@ -1,4 +1,6 @@
+import Hiring from "@/components/getHiring";
 import Navbar from "@/components/navbar";
+import SimpleSlider from "@/components/searchApply/AutoSlides";
 import SearchApply from "@/components/searchApply/SearchApply";
 
 export default function Home() {
@@ -7,6 +9,8 @@ export default function Home() {
       <Navbar />
 
       <SearchApply />
+      <SimpleSlider />
+      <Hiring />
     </>
   );
 }

@@ -23,3 +23,14 @@ button,input,textarea{
   font-family: inherit;
 }
 
+
+.swiper-slide {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center !important;
+  padding: 0; /* Remove padding */
+  margin: 0.5rem; /* Ensure no margin */
+  width: 13% !important;
+  height: 15% !important;
+}

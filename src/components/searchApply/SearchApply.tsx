@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import playIcon from "../../../public/image/icons8-play-100.png";
+import SimpleSlider from "./AutoSlides";
 function SearchApply() {
   return (
     <div className="flex flex-col justify-center items-center mt-16 gap-8">
