@@ -7,7 +7,7 @@ import Person from "../../../public/image/person.webp";
 const LatestJob = () => {
   const router = useRouter();
   return (
-    <section className="relative mx-auto flex w-[70%] max-w-[1300px] flex-col rounded-2xl bg-[#333333] p-3 md:w-[80%] md:p-8 lg:flex-row lg:items-center lg:gap-5 xl:w-[70%] mt-32 ">
+    <section className="relative mx-auto flex w-[70%] max-w-[1300px] flex-col rounded-2xl bg-[#333333] p-3 md:w-[80%] md:p-8 lg:flex-row lg:items-center lg:gap-5 xl:w-[70%] mt-16 ">
       <Image
         className="absolute -bottom-0 -left-5 w-[130px] md:w-[250px] lg:w-[340px]"
         src={Person}
@@ -28,10 +28,7 @@ const LatestJob = () => {
         </p>
 
         <form className="max-w-md mx-auto">
-          <label
-            for="default-search"
-            className="mb-2 text-sm font-medium  sr-only dark:text-white"
-          >
+          <label className="mb-2 text-sm font-medium  sr-only dark:text-white">
             Search
           </label>
           <div className="relative">

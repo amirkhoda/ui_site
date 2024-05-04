@@ -8,7 +8,7 @@ function Navbar() {
           href="https://flowbite.com/"
           className="flex items-center space-x-3 rtl:space-x-reverse"
         >
-          <p className="self-center text-2xl text-primary font-semibold whitespace-nowrap">
+          <p className="self-center text-2xl text-primary font-semibold whitespace-nowrap header-3">
             Job
             <span className="text-[#eb7f13]"> Hunt</span>
           </p>
@@ -37,7 +37,10 @@ function Navbar() {
             />
           </svg>
         </button>
-        <div className="hidden w-full md:block md:w-auto" id="navbar-default">
+        <div
+          className="hidden w-full md:block md:w-auto subtitle-1"
+          id="navbar-default"
+        >
           <ul className="font-medium flex flex-col items-center p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white  ">
             <li>
               <a
@@ -84,13 +87,13 @@ function Navbar() {
               type="button"
               className="text-primary bg-white border border-primary focus:outline-none hover:bg-primary hover:text-white focus:ring-4 focus:ring-gray-100 font-medium rounded-lg text-sm px-7 py-2.5 me-2 mb-2"
             >
-              Light
+              Login
             </button>
             <button
               type="button"
               className="focus:outline-none text-white bg-primary hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-7 py-2.5 mb-2  "
             >
-              Purple
+              Register
             </button>
           </ul>
         </div>

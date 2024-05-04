@@ -5,7 +5,7 @@ import SimpleSlider from "./AutoSlides";
 function SearchApply() {
   return (
     <div className="flex flex-col justify-center items-center mt-16 gap-8">
-      <button className="bg-[#f5eadf] text-[#eb7f13] py-2 px-3 rounded-xl">
+      <button className="bg-[#f5eadf] text-[#eb7f13] py-2 px-3 rounded-xl title-5">
         No.1 Job Hunt Website
       </button>
       <p className="font-black text-[60px]">

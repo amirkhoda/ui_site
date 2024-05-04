@@ -1,4 +1,5 @@
 import Careers from "@/components/careers";
+import Comments from "@/components/comments/Comments";
 import Hiring from "@/components/getHiring";
 import LatestJob from "@/components/latestJob";
 import Navbar from "@/components/navbar";
@@ -16,6 +17,7 @@ export default function Home() {
       <Careers />
       <TopJob />
       <Offer />
+      <Comments />
       <LatestJob />
     </>
   );

@@ -15,7 +15,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={yekan.className}>
+      <body>
         <div>
           <Navbar />
           <main>{children}</main>
