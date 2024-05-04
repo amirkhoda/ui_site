@@ -13,21 +13,17 @@ const LatestJob = () => {
         src={Person}
         alt="A smiling person"
       />
-      <div className="flex flex-col text-[#111]">
-        <p className="header-4 whitespace-nowrap">عضو خانواده ما شو!</p>
-        <p className="title-4 hidden md:block">اینجا برای همه جا هست!</p>
-      </div>
-      <div className="ml-[200px] w-[80%] flex-col text-[#111] lg:max-w-[62%]">
-        <p className="max-w-[90%] text-white text-[.44rem] md:max-w-[80%] md:text-[.70rem] lg:text-[1rem] ">
-          Get Latest Job <br className="hidden lg:block" />
-          <p className="text-white">Update</p>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing officia magni
-            delectus voluptate
-          </p>
-        </p>
 
-        <form className="max-w-md mx-auto">
+      <div className="flex md:ml-[200px] lg:ml-[300px]   ml-[100px] w-[80%] flex-col text-[#111] lg:max-w-[62%] ">
+        <p className="max-w-[90%] text-white  md:max-w-[80%] title-4">
+          Get Latest Job <br className="hidden lg:block" />
+          <p className="text-white title-4 ">Update</p>
+        </p>
+        <p className=" subtitle-2 mt-4 text-secondary">
+          Lorem ipsum dolor, sit amet consectetur adipisicing officia magni
+          delectus voluptate
+        </p>
+        <form className="max-w-md md:block hidden">
           <label className="mb-2 text-sm font-medium  sr-only dark:text-white">
             Search
           </label>

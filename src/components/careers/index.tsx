@@ -6,9 +6,9 @@ import CareersCard from "./CareersCard";
 function Careers() {
   return (
     <div className="flex flex-col justify-center items-center gap-8 mt-16">
-      <div className="flex flex-col justify-center items-center">
+      <div className="flex flex-col justify-center items-center ">
         {" "}
-        <p className="header-2 ">
+        <p className="header-2 md:pl-0 pl-8 ">
           <span className="text-primary header-2 ">
             Countless Career Options
           </span>{" "}

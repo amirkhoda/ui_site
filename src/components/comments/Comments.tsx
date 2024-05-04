@@ -31,10 +31,14 @@ const Comments: React.FC<Props> = ({}) => {
   ];
 
   return (
-    <div className="relative mb-[2.51rem] flex h-[550px] items-start justify-center bg-main-image ">
+    <div className="relative mb-[2.51rem] flex h-[550px] items-start justify-center bg-main-image mt-16 ">
       <div className="z-10 flex w-full flex-col items-center justify-start gap-2 py-16 md:py-2">
-        <h3 className="header-3 text-white">صحبت مدیران</h3>{" "}
-        <div className="flex h-full w-[90%] flex-col"></div>
+        <p className="header-2">Testimonials</p>
+        <p className="subtitle-1 text-secondary md:pl-0 pl-12">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime quam
+          sit accusamus, magnam ipsam?
+          <br /> Voluptatum nisi voluptas provident perspiciatis numquam.
+        </p>
         <Carousel active={active} setActive={setActive}>
           {cardsData.map((card, i) => (
             <CommentsCard
