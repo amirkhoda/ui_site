@@ -287,14 +287,7 @@ button,input,textarea{
     font-size: 0.70431rem;
   } */
 }
-.subtitle-1-change {
-  font-family: "KalamehRegular";
-  font-size: 1.36213;
-  line-height: 150.5%;
-  @media screen and (max-width: 758px) {
-    font-size: 0.59606rem;
-  }
-}
+
 
 .subtitle-2 {
   font-family: "KalamehRegular";

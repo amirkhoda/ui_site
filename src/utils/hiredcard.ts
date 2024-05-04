@@ -22,7 +22,7 @@ const data: DataItem[] = [
     },
     {
         image: resume,
-        title: "Upload CV/Resume",
+        title: "Upload CV",
         main: "Upload your most recent CV or resume."
     },
     {

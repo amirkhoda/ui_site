@@ -17,7 +17,7 @@ const jobs = [
 ];
 export default function NewsTicker() {
   return (
-    <div className="flex flex-col justify-center items-center gap-3 mt-8">
+    <div className="flex flex-col justify-center items-center gap-3 mt-8 subtitle-2">
       <Swiper
         modules={[Autoplay, FreeMode]}
         spaceBetween={0}
