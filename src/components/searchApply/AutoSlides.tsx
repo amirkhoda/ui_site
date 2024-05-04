@@ -28,10 +28,8 @@ export default function NewsTicker() {
           delay: 0,
           disableOnInteraction: false,
           reverseDirection: false,
-          speed: 7000,
         }}
         speed={5000}
-        onSlideChange={() => console.log("slide change")}
       >
         {jobs.map((job) => (
           <SwiperSlide
@@ -52,10 +50,8 @@ export default function NewsTicker() {
           delay: 0,
           disableOnInteraction: false,
           reverseDirection: true,
-          speed: 7000,
         }}
         speed={5000}
-        onSlideChange={() => console.log("slide change")}
       >
         {jobs.map((job) => (
           <SwiperSlide
