@@ -17,7 +17,7 @@ const TopJob = () => {
         </p>
         <button
           type="button"
-          className="text-primary bg-white border border-primary focus:outline-none hover:bg-primary hover:text-white focus:ring-4 focus:ring-gray-100 font-medium rounded-lg text-sm px-7 py-2.5 me-2 mb-2"
+          className="text-primary bg-white border border-primary focus:outline-none hover:bg-primary hover:text-white focus:ring-4 focus:ring-gray-100 font-medium rounded-lg text-sm px-7 py-2.5 me-2 mb-2 btn"
         >
           View All Jobs
         </button>

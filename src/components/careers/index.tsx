@@ -23,7 +23,7 @@ function Careers() {
       </div>
       <button
         type="button"
-        className="focus:outline-none text-white bg-primary hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-7 py-2.5 mb-2  "
+        className="focus:outline-none text-white bg-primary hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-7 py-2.5 mb-2 mt-8 btn  "
       >
         View All Categories
       </button>
