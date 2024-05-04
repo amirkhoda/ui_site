@@ -6,7 +6,7 @@ import data from "../../utils/hiredcard";
 
 const Hiring = () => {
   return (
-    <div className="flex flex-col justify-center items-center gap-2 mt-8">
+    <div className="flex flex-col justify-center items-center gap-2 mt-16">
       <p className="">
         Get Hired in <span className="text-primary">Quick Easy Step</span>
       </p>

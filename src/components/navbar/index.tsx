@@ -82,7 +82,7 @@ function Navbar() {
             </li>
             <button
               type="button"
-              className="text-primary bg-white border border-primary focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium rounded-lg text-sm px-7 py-2.5 me-2 mb-2"
+              className="text-primary bg-white border border-primary focus:outline-none hover:bg-primary hover:text-white focus:ring-4 focus:ring-gray-100 font-medium rounded-lg text-sm px-7 py-2.5 me-2 mb-2"
             >
               Light
             </button>

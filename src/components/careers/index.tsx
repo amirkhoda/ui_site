@@ -5,7 +5,7 @@ import CareersCard from "./CareersCard";
 
 function Careers() {
   return (
-    <div className="flex flex-col justify-center items-center gap-2 mt-8">
+    <div className="flex flex-col justify-center items-center gap-2 mt-16">
       <p>
         <span className="text-primary">Countless Career Options</span> Are
         Waiting

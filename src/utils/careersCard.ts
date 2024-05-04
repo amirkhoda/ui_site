@@ -17,42 +17,42 @@ const careers: careerData[] = [
     {
         image: design,
         title: "Create an account",
-        main: "Register and create your personal account."
+        main: "Register and create you"
     },
     {
         image: sales,
         title: "Search Job",
-        main: "Find the perfect job that fits your skills."
+        main: "Find the perfect job tha"
     },
     {
         image: marketing,
         title: "Upload CV/Resume",
-        main: "Upload your most recent CV or resume."
+        main: "Upload your most r"
     },
     {
         image: finance,
         title: "Get Job",
-        main: "Start your new career with your new job."
+        main: "Start your new career"
     },
     {
         image: automobile,
         title: "Get Job",
-        main: "Start your new career with your new job."
+        main: "Start your new career"
     },
     {
         image: delivered,
         title: "Get Job",
-        main: "Start your new career with your new job."
+        main: "Start your new career"
     },
     {
         image: admin,
         title: "Get Job",
-        main: "Start your new career with your new job."
+        main: "Start your new career"
     },
     {
         image: construction,
         title: "Get Job",
-        main: "Start your new career with your new job."
+        main: "Start your new career"
     }
 ]
 
